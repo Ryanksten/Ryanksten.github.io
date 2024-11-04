@@ -276,6 +276,7 @@
 							</article>
 
 						<!-- Contact -->
+                        <!-- Contact -->
 <article id="contact">
     <h2 class="major">Contact</h2>
     <form id="contact-form">
@@ -304,10 +305,13 @@
         <li><a href="mailto:Ryanksten@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
     </ul>
 </article>
+
+<!-- Include EmailJS SDK -->
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
+    // Initialize EmailJS with your User ID
     (function(){
-        emailjs.init("YOUR_USER_ID"); 
+        emailjs.init("YOUR_USER_ID"); // Replace with your actual User ID
     })();
 
     // Handle form submission
@@ -324,6 +328,9 @@
         });
     });
 </script>
+
+                        
+
 					</div>
 
 				<!-- Footer -->
@@ -350,7 +357,8 @@
             <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
             <script type="text/javascript">
               (function() {
-                emailjs.init("iba9MU2Dl9ofdcOdo"); 
+                emailjs.init("iba9MU2Dl9ofdcOdo");
+              })();
             </script>
 	</body>
 </html>
